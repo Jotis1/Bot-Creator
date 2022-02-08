@@ -1,3 +1,3 @@
-const isWds = require("creatorb");
+const createBot = require("creatorb");
 
-console.log(isWds("WDS"))
+createBot()
