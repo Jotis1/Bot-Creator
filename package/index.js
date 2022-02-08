@@ -1,5 +1,8 @@
-function isWds(string){
-    return string === "WDS"
-}
+function createBot(name, surname, genre, directory){
+    var config = new Object();
+    config.name = name;
+    config.surname = surname;
+    config.genre = genre;
 
-module.exports = isWds
+    var configJSON = JSON.stringify(config)
+}

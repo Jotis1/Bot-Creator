@@ -1,3 +1,3 @@
-const isWds = require("is-wds");
+const isWds = require("creatorb");
 
 console.log(isWds("WDS"))
