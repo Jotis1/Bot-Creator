@@ -1,5 +1,5 @@
-function createBot(string){
+function createbot(string){
     return string === "LOL"
 }
 
-module.exports = createBot
+module.exports = createbot
