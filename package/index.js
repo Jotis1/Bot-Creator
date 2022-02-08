@@ -1,5 +1,5 @@
-function createbot(string){
-    return string === "LOL"
+function isWds(string){
+    return string === "WDS"
 }
 
-module.exports = createbot
+module.exports = isWds
